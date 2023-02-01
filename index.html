@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="Assets/style/style.css">
+    <title>Busca Cep</title>
+</head>
+<body>
+  <header> 
+    <div class="header-content row mb-5">
+      <div class="col-12 text-center">
+        <h1 class="titulo">Busca Cep</h1>
+      </div>
+    </div>
+  </header>
+
+
+  <main class="container">
+    <div class="formulario m-auto p-5 w-50 rounded">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="subtitulo mb-4">Informe o CEP</h2>
+          <p class="texto">Digite o CEP e ao sair do campo o endereço será completado automaticamente.</p>
+        </div>
+      </div>
+      <form action="#" class="form-inline align-items-center">
+          <div class="form-group col-12 col-sm-6 mb-2">
+            <label for="cep" class="form-label">Cep:</label>
+            <input type="text" class="form-control" id="cep">
+          </div>
+
+          <div class="form-group col-12 col-xl-6 mb-2">
+            <label for="rua" class="form-label">Rua:</label>
+            <input type="text" class="form-control" id="rua">
+          </div>
+          <div class="form-group col-12 col-xl-6 mb-2">
+            <label for="bairro" class="form-label">Bairro:</label>
+            <input type="text" class="form-control" id="bairro">
+          </div>
+          <div class="form-group col-12 col-xl-6 mb-2">
+            <label for="cidade" class="form-label">Cidade:</label>
+            <input type="text" class="form-control" id="cidade">
+          </div>
+          <div class="form-group col-12 col-xl-6 mb-2">
+            <label for="estado" class="form-label">Estado:</label>
+            <input type="text" class="form-control" id="estado">
+          </div>
+          <div class="form-group col-12 col-xl-6 mb-2">
+            <label for="ddd" class="form-label">DDD:</label>
+            <input type="text" class="form-control" id="ddd">
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-danger" id="limpa">Limpar</button>
+          </div>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p class="texto-footer text-center">Developed by: Gabriel Acauan</p>
+  </footer>
+  
+
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/script-formulario.js"></script>
+    <script src="assets/js/animações.js"></script>
+  </body>
+</html>
